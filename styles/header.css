@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 35px;
+}
+
+ul > li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+ul > li > a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+ul > li > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.header__button {
+  background-color: transparent;
+  padding: 17px 57px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  border: 2px solid #263238;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header__button:hover {
+  background-color: black;
+  color: white;
+}
