@@ -1,8 +1,13 @@
+.skills {
+  margin-bottom: 250px;
+}
+
 .skills h1 {
   font-weight: 600;
   font-size: 48px;
   line-height: 80px;
   text-align: center;
+  margin-bottom: 90px;
 }
 
 .skills-container {
