@@ -1,0 +1,50 @@
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 190px;
+}
+
+.about-us__info {
+  flex-basis: 50%;
+}
+
+.about-us__info h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+}
+
+.about-us__info p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+
+.about-us_numbers {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 160px;
+}
+
+.about-us_numbers div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-us_numbers__number {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  color: var(--main-color);
+}
+
+.about-us_numbers__name {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
