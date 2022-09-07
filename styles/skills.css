@@ -1,0 +1,88 @@
+.skills h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  gap: 0 18px;
+}
+
+.skills-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.skills-container__skill {
+  border-radius: 10px;
+  background-color: var(--background-color);
+  flex-grow: 1;
+}
+
+.skills-container__skill h3 {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.skills-container__skill p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.skills-container__skill button {
+  background-color: var(--main-color);
+  padding: 15px 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  border-radius: 5px;
+}
+
+.skills-container__skill button:hover {
+  background-color: white;
+  color: var(--main-color);
+}
+
+.skill-1 {
+  flex-basis: calc(100% / 3 - 18px);
+  padding: 35px 45px 0px;
+}
+
+.skill-2,
+.skill-3 {
+  flex-basis: calc(100% / 2 - 18px);
+  padding: 10px 40px 45px;
+}
+
+.skill-2 img {
+  float: right;
+}
+
+.skill-2 h3 {
+  clear: right;
+}
+
+.skill-3 h3 {
+  margin-top: 35px;
+}
+
+.skill-4 {
+  padding: 45px 25px 45px 45px;
+}
+
+.skill-4 img {
+  float: right;
+  padding-right: 100px;
+}
+
+.skill-4 p {
+  width: 50%;
+}
