@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0 190px;
-  margin-bottom: 220px;
+  gap: 0 88px;
+  margin-bottom: 130px;
 }
 
 .about-us__info {
@@ -11,17 +11,12 @@
 }
 
 .about-us__info h1 {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 80px;
+  margin-bottom: 30px;
 }
 
 .about-us__info p {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
   color: var(--text-color);
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .about-us_numbers {
@@ -37,15 +32,9 @@
 }
 
 .about-us_numbers__number {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 80px;
   color: var(--main-color);
 }
 
 .about-us_numbers__name {
   color: var(--text-color);
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
 }
