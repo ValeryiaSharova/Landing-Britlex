@@ -5,22 +5,22 @@ header {
   margin-bottom: 50px;
 }
 
-ul {
+.header__list {
   display: flex;
   justify-content: space-between;
   gap: 0 55px;
 }
 
-ul > li {
+.header__list > li {
   list-style: none;
 }
 
-ul > li > a {
+.header__list > li > a {
   color: var(--main-color);
   text-decoration: none;
 }
 
-ul > li > a:hover {
+.header__list > li > a:hover {
   color: black;
   text-decoration: underline;
 }
